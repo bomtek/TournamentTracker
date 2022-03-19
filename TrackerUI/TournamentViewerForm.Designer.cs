@@ -1,6 +1,6 @@
 ﻿namespace TrackerUI
 {
-    partial class tournamentViewerForm
+    partial class TournamentViewerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -183,7 +183,7 @@
             this.scoreButton.Text = "Score";
             this.scoreButton.UseVisualStyleBackColor = true;
             // 
-            // tournamentViewerForm
+            // TournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -204,7 +204,7 @@
             this.Controls.Add(this.tournmaneName);
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "tournamentViewerForm";
+            this.Name = "TournamentViewerForm";
             this.Text = "Tournament Viewer";
             this.Load += new System.EventHandler(this.TournamentViewerForm_Load);
             this.ResumeLayout(false);

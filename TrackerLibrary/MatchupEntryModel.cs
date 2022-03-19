@@ -36,7 +36,7 @@ namespace TrackerLibrary
 
         public MatchupEntryModel(double initialScore)
         {
-            Console.WriteLine()
+            Console.WriteLine();
 
         }
 }

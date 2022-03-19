@@ -1,6 +1,6 @@
 ﻿namespace TrackerUI
 {
-    partial class TourrnamentDashboardForm
+    partial class TournamentDashboardForm
     {
         /// <summary>
         /// Required designer variable.
@@ -83,11 +83,11 @@
             this.createTournamentButton.Text = "Create Tournament";
             this.createTournamentButton.UseVisualStyleBackColor = true;
             // 
-            // TourrnamentDashboardForm
+            // TournamentDashboardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1370, 749);
+            this.ClientSize = new System.Drawing.Size(751, 481);
             this.Controls.Add(this.createTournamentButton);
             this.Controls.Add(this.loadTournamentButton);
             this.Controls.Add(this.loadExistingTournamentValue);
@@ -95,8 +95,9 @@
             this.Controls.Add(this.tournmentHeaderLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(6, 7, 6, 7);
-            this.Name = "TourrnamentDashboardForm";
+            this.Name = "TournamentDashboardForm";
             this.Text = "Tourrnament Dashboard";
+            this.Load += new System.EventHandler(this.TournamentDashboardForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

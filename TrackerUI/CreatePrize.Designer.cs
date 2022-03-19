@@ -1,6 +1,6 @@
 ﻿namespace TrackerUI
 {
-    partial class createPrizeForm
+    partial class CreatePrizeForm
     {
         /// <summary>
         /// Required designer variable.
@@ -134,7 +134,7 @@
             this.createPrizeButton.Text = "Create Prize";
             this.createPrizeButton.UseVisualStyleBackColor = true;
             // 
-            // createPrizeForm
+            // CreatePrizeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,8 +151,8 @@
             this.Controls.Add(this.placeNumberLabel);
             this.Controls.Add(this.createPrizeHeaderLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.Name = "createPrizeForm";
+            this.Margin = new System.Windows.Forms.Padding(6);
+            this.Name = "CreatePrizeForm";
             this.Text = "Create Prize";
             this.ResumeLayout(false);
             this.PerformLayout();
