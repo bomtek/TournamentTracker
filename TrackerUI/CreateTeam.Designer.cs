@@ -1,6 +1,6 @@
 ﻿namespace TrackerUI
 {
-    partial class CreateTeam
+    partial class createTeamForm
     {
         /// <summary>
         /// Required designer variable.
@@ -245,7 +245,7 @@
             this.createTeamButton.Text = "Create Team";
             this.createTeamButton.UseVisualStyleBackColor = true;
             // 
-            // CreateTeam
+            // createTeamForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -261,7 +261,7 @@
             this.Controls.Add(this.teamMemberValue);
             this.Controls.Add(this.teamMemberLabel);
             this.Controls.Add(this.createTeamHeaderLabel);
-            this.Name = "CreateTeam";
+            this.Name = "createTeamForm";
             this.Text = "CreateTeam";
             this.addNewMemberGroupbox.ResumeLayout(false);
             this.addNewMemberGroupbox.PerformLayout();

@@ -1,6 +1,6 @@
 ﻿namespace TrackerUI
 {
-    partial class TournamentViewerForm
+    partial class tournamentViewerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@
         {
             this.headerLabel = new System.Windows.Forms.Label();
             this.tournmaneName = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.roundLabel = new System.Windows.Forms.Label();
             this.roundDropbox = new System.Windows.Forms.ComboBox();
             this.unplayedOnlyCheckBox = new System.Windows.Forms.CheckBox();
             this.matchupListBox = new System.Windows.Forms.ListBox();
@@ -65,15 +65,15 @@
             this.tournmaneName.TabIndex = 1;
             this.tournmaneName.Text = "<none>";
             // 
-            // label1
+            // roundLabel
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.label1.Location = new System.Drawing.Point(53, 117);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(56, 21);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Round";
+            this.roundLabel.AutoSize = true;
+            this.roundLabel.Font = new System.Drawing.Font("Segoe UI", 12F);
+            this.roundLabel.Location = new System.Drawing.Point(53, 117);
+            this.roundLabel.Name = "roundLabel";
+            this.roundLabel.Size = new System.Drawing.Size(56, 21);
+            this.roundLabel.TabIndex = 2;
+            this.roundLabel.Text = "Round";
             // 
             // roundDropbox
             // 
@@ -183,7 +183,7 @@
             this.scoreButton.Text = "Score";
             this.scoreButton.UseVisualStyleBackColor = true;
             // 
-            // TournamentViewerForm
+            // tournamentViewerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -200,11 +200,11 @@
             this.Controls.Add(this.matchupListBox);
             this.Controls.Add(this.unplayedOnlyCheckBox);
             this.Controls.Add(this.roundDropbox);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.roundLabel);
             this.Controls.Add(this.tournmaneName);
             this.Controls.Add(this.headerLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Name = "TournamentViewerForm";
+            this.Name = "tournamentViewerForm";
             this.Text = "Tournament Viewer";
             this.Load += new System.EventHandler(this.TournamentViewerForm_Load);
             this.ResumeLayout(false);
@@ -216,7 +216,7 @@
 
         private System.Windows.Forms.Label headerLabel;
         private System.Windows.Forms.Label tournmaneName;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label roundLabel;
         private System.Windows.Forms.ComboBox roundDropbox;
         private System.Windows.Forms.CheckBox unplayedOnlyCheckBox;
         private System.Windows.Forms.ListBox matchupListBox;
