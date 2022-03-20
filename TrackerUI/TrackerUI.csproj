@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CreatePrize.cs">
+    <Compile Include="CreatePrizeForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CreatePrize.Designer.cs">
-      <DependentUpon>CreatePrize.cs</DependentUpon>
+    <Compile Include="CreatePrizeForm.Designer.cs">
+      <DependentUpon>CreatePrizeForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CreateTeam.cs">
       <SubType>Form</SubType>
@@ -78,8 +78,8 @@
     <Compile Include="TourrnamentDashboard.Designer.cs">
       <DependentUpon>TourrnamentDashboard.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CreatePrize.resx">
-      <DependentUpon>CreatePrize.cs</DependentUpon>
+    <EmbeddedResource Include="CreatePrizeForm.resx">
+      <DependentUpon>CreatePrizeForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CreateTeam.resx">
       <DependentUpon>CreateTeam.cs</DependentUpon>
@@ -114,6 +114,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TrackerLibrary\TrackerLibrary.csproj">
+      <Project>{39cc7999-ece4-4fe1-82e2-fdcbf657a968}</Project>
+      <Name>TrackerLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
